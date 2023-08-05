@@ -1,34 +1,27 @@
 import "./App.css";
-import NavBar from "./Navbar";
 import { Container, Stack } from "react-bootstrap";
-import ParticleCanvas from "./Particles";
+import Education from "./components/Education";
+import ParticleCanvas from "./components/Particles";
+import SocialTabs from "./components/SocialTabs";
+import Experiences from "./components/Experiences";
+import NavBar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <>
       <NavBar />
       <div id="particles">
+      <SocialTabs />
         <ParticleCanvas />
         <h1 id="title-text"> Harvey Wu </h1>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-
-        <div class="icon-bar">
-          <a href="#" class="linkedin">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a href="#" class="github">
-            <i class="fa fa-github"></i>
-          </a>
-          <a href="#" class="email">
-            <i class="fa fa-envelope"></i>
-          </a>
-        </div>
       </div>
-      <div>
-        <h1> Testing </h1>
+      <div id="resume">
+        <Experiences />
+        <Education />
+        <Projects />
+        <Skills />
       </div>
     </>
   );

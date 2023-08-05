@@ -17,6 +17,16 @@
   color: white;
 }
 
+#resume {
+  text-align: center;
+  background-color: lightcyan;
+}
+
+.job-description {
+  text-align: left;
+  background-color: lightgray ;
+}
+
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;

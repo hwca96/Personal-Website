@@ -1,8 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import "./App.css";
 
 function NavBar() {
   return (
@@ -12,8 +10,8 @@ function NavBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="navbar-nav" className="flex-grow-0">
         <Nav >
+          <Nav.Link href="#">Experiences</Nav.Link>
           <Nav.Link href="#">Projects</Nav.Link>
-          <Nav.Link href="#">Resume</Nav.Link>
           <Nav.Link href="#">Skills</Nav.Link>
           <Nav.Link href="#">Contact</Nav.Link>
         </Nav>
