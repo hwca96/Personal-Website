@@ -1,35 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import NavBar from "./Navbar";
+import { Container, Stack } from "react-bootstrap";
+import ParticleCanvas from "./Particles";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      <NavBar />
+      <div id="particles">
+        <ParticleCanvas />
+        <h1 id="title-text"> Harvey Wu </h1>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <div class="icon-bar">
+          <a href="#" class="linkedin">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="#" class="github">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="#" class="email">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </div>
+      </div>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1> Testing </h1>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
