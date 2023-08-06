@@ -30,7 +30,7 @@ function ParticleCanvas() {
         },
         fpsLimit: 120,
         interactivity: {
-          detect_on: "window",
+          detect_on: "canvas",
           events: {
             onClick: {
               enable: true,
@@ -78,6 +78,7 @@ function ParticleCanvas() {
               area: 800,
             },
             value: 150,
+            limit: 300
           },
           opacity: {
             value: 0.5,
