@@ -7,6 +7,10 @@ import Experiences from "./components/Experiences";
 import NavBar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Typed from 'typed.js'
+import TypingText from "./components/TypingText";
+
+
 
 function App() {
   return (
@@ -15,7 +19,10 @@ function App() {
       <div id="particles">
       <SocialTabs />
         <ParticleCanvas />
-        <h1 id="title-text"> Harvey Wu </h1>
+        <div className="title-container" id="title-text">
+          <h1 className="title"> Harvey Wu </h1>
+            <TypingText />
+        </div>
       </div>
       <div id="resume">
         <Experiences />
@@ -26,5 +33,9 @@ function App() {
     </>
   );
 }
+// const typed = new Typed('#typing-element', {
+//   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+//   typeSpeed: 50,
+// });
 
 export default App;

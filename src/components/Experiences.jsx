@@ -3,12 +3,12 @@ import { Accordion } from "react-bootstrap";
 function Experiences() {
   return (
     <>
-      <h2> Work Experiences </h2>
+      <h2 className="title"> Work Experiences </h2>
       <Accordion
         alwaysOpen
         defaultActiveKey={["0", "1", "2"]}
         className="mx-auto"
-        style={{width: "85%"}}
+        id="experience-accordion"
       >
         <Accordion.Item eventKey="0">
           <Accordion.Header>

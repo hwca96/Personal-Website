@@ -53,10 +53,10 @@ function ParticleCanvas() {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#b8c1ec",
           },
           links: {
-            color: "#ffffff",
+            color: "#b8c1ec",
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -78,7 +78,7 @@ function ParticleCanvas() {
               area: 800,
             },
             value: 150,
-            limit: 300
+            limit: 600
           },
           opacity: {
             value: 0.5,

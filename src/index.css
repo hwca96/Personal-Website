@@ -1,3 +1,53 @@
+:root {
+    --bg-color: #232946;
+    --stroke-color: #121629;
+    --button-color: #b8c1ec;
+    --headline-color: #fffffe;
+    --secondary-color: #677ce4;
+    --text-bg: #d4d8f0;
+}
+
 html,body{
     overflow-x: hidden;
+}
+
+#resume {
+    background-color: var(--bg-color);
+}
+
+#tsparticles {
+    background-color: var(--stroke-color);
+}
+
+#nav-bar {
+    background-color: var(--button-color);
+}
+
+#experience-accordion {
+    width: 85%;
+}
+
+.title {
+    color: var(--headline-color);
+}
+
+.accordion-button {
+    --bs-accordion-active-bg: var(--button-color);
+    --bs-accordion-btn-bg: var(--secondary-color);
+}
+
+.accordion-button:focus {
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.job-description {
+    background-color: var(--text-bg);
+}
+
+.card {
+    --bs-body-bg: var(--button-color);
+}
+
+.typing-container {
+    color: var(--headline-color);
 }

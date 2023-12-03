@@ -3,7 +3,7 @@ import { Button, Card, Row, Col } from "react-bootstrap";
 function Education() {
   return (
     <>
-      <h2>Education</h2>
+      <h2 className="title">Education</h2>
       <Row className="justify-content-center flex-grow-0">
         <Col className="mx-0 flex-grow-0 py-1">
           <Card style={{ width: "20rem" }} className="mx-1">
