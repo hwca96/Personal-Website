@@ -8,9 +8,10 @@ function TypingText() {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
         strings: ['Software Engineer', 'Data Analyst', 'Data Scientist', 'Chemist'],
-        typeSpeed: 50,
-        backSpeed: 50,
-        loop: true
+        typeSpeed: 40,
+        backSpeed: 40,
+        loop: true,
+        smartBackspace: false
       });
 
     return () => {
