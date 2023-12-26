@@ -56,11 +56,11 @@ function Skills() {
         <h2 className="skill-title">Data Analytics</h2>
         <div className="skill-info">
         <div className="skill-card">
-            <img src="src\assets\scikitlearn-logo.svg" className="skill-image"/>
+            <img src="src\docs\assets\scikitlearn-logo.svg" className="skill-image"/>
             <h3 className="title">scikit-learn</h3>
           </div>
         <div className="skill-card">
-            <img src="src\assets\Matplotlib_icon.svg" className="skill-image" />
+            <img src="src\docs\assets\Matplotlib_icon.svg" className="skill-image" />
             <h3 className="title">Matplotlib</h3>
           </div>
         <div className="skill-card">

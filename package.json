@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://hwca96.github.io/personal-website",
+  "homepage": "http://hwca96.github.io/personal-website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
