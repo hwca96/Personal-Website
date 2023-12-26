@@ -1,10 +1,12 @@
 :root {
-    --bg-color: #232946;
+    --bg-color: #0f0e17;
     --stroke-color: #121629;
-    --button-color: #b8c1ec;
-    --headline-color: #fffffe;
-    --secondary-color: #677ce4;
-    --text-bg: #d4d8f0;
+    --button-color: #fffffe;
+    --main-color: #fffffe;
+    --headline-color: #ff8906;
+    --secondary-color: #f25f4c;
+    --text-bg: #ff8906;
+    --paragraph: #a7a9be;
 }
 
 html,body{
@@ -28,7 +30,7 @@ html,body{
 }
 
 .title {
-    color: var(--headline-color);
+    color: var(--main-color);
 }
 
 .accordion-button {
@@ -50,4 +52,73 @@ html,body{
 
 .typing-container {
     color: var(--headline-color);
+}
+
+.experience-panel-0 {
+    background-color: var(--stroke-color);
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: left;
+    text-indent: 1%;
+}
+
+
+.list-items {
+    text-align: left;
+    text-indent: 0%;
+    color: var(--paragraph);
+    padding-bottom: 0.1vh;
+    padding-right: 0.5%;
+}
+
+.job-title {
+    color: var(--secondary-color);
+}
+
+.skill-title {
+    color: var(--secondary-color);
+}
+
+.main-name {
+    color: var(--headline-color);
+    font-size: 500%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -4vh;
+    visibility: hidden;
+}
+
+.skill-container {
+    background-color: var(--stroke-color);
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding-left: 0.5%;
+    border-radius: 10px;
+}
+
+.skill-info {
+    text-align: right;
+    padding-right: 0.5%;
+    overflow: auto;
+}
+
+.skill-card {
+    text-align: center;
+    max-width: fit-content;
+    float: right;
+    margin: 0.25%;
+}
+
+.skill-image {
+    font-size: 5em;
+    min-width: 1em;
+    width: 1em;
+    min-height: 1em;
+    height: auto;
 }

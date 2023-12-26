@@ -25,8 +25,8 @@ function ParticleCanvas() {
       options={{
         fullScreen: false,
         background: {
-          color: "#fff",
-          opacity: 0,
+          color: "#000000",
+          opacity: 100,
         },
         fpsLimit: 120,
         interactivity: {

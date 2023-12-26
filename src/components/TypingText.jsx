@@ -22,7 +22,7 @@ function TypingText() {
 
   return (
     <div className="App">
-      <h1>Hi, I am a <span ref={el} style={{color: "#b8c1ec"}}/></h1>
+      <h1>Hi, I am a <span ref={el} style={{color: "#f25f4c"}}/></h1>
     </div>
   );
 }
