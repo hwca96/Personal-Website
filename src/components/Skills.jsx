@@ -1,3 +1,6 @@
+import matplotliblogo from "../../assets/matplotlib.svg"
+import scikitlearnlogo from "../../assets/scikitlearn.svg"
+
 function Skills() {
   return (
     <>
@@ -56,11 +59,11 @@ function Skills() {
         <h2 className="skill-title">Data Analytics</h2>
         <div className="skill-info">
         <div className="skill-card">
-            <img src="assets/scikitlearn-logo.svg" className="skill-image"/>
+            <img src={scikitlearnlogo} className="skill-image"/>
             <h3 className="title">scikit-learn</h3>
           </div>
         <div className="skill-card">
-            <img src="assets/Matplotlib_icon.svg" className="skill-image" />
+            <img src={matplotliblogo} className="skill-image" />
             <h3 className="title">Matplotlib</h3>
           </div>
         <div className="skill-card">
