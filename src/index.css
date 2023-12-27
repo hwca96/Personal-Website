@@ -22,7 +22,7 @@ html,body{
 }
 
 #nav-bar {
-    background-color: var(--button-color);
+    background-color: var(--bg-color);
 }
 
 #experience-accordion {
@@ -89,7 +89,7 @@ html,body{
 .anchor {
     display: block;
     position: relative;
-    top: -4vh;
+    top: -5vh;
     visibility: hidden;
 }
 
@@ -112,7 +112,7 @@ html,body{
     text-align: center;
     max-width: fit-content;
     float: right;
-    margin: 0.25%;
+    margin: 0.5%;
 }
 
 .skill-image {

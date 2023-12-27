@@ -30,7 +30,7 @@ function App() {
         <a id="skills" className="anchor"></a>
         <Skills/>
         <a id="projects" className="anchor"></a>
-        <Projects/>
+        {/* <Projects/> */}
       </div>
     </>
   );
