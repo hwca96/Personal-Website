@@ -28,7 +28,7 @@ function Projects() {
           <Button
             variant="outline-info"
             className="project-buttons"
-            href="/personal-website/semantic-search-demo"
+            href="/#/semantic-search"
             target="_blank"
           >
             {" "}
