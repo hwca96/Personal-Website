@@ -17,6 +17,20 @@ html,body{
     background-color: var(--bg-color);
 }
 
+#demo {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+#demo-iframe{
+    background-color: var(--bg-color);
+    min-width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+}
+
 #tsparticles {
     background-color: var(--stroke-color);
 }
@@ -68,12 +82,16 @@ html,body{
     text-align: left;
     text-indent: 0%;
     color: var(--paragraph);
-    padding-bottom: 0.1vh;
+    padding-bottom: 0.1%;
     padding-right: 0.5%;
 }
 
 .job-title {
     color: var(--secondary-color);
+}
+
+.navbar-name {
+    color: var(--headline-color);
 }
 
 .skill-title {
@@ -121,4 +139,28 @@ html,body{
     width: 1em;
     min-height: 1em;
     height: auto;
+}
+
+.project-panel {
+    color: var(--main-color);
+    background-color: var(--stroke-color);
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: left;
+    text-indent: 0%;
+    padding-left: 1%;
+    margin-bottom: 1%;
+}
+
+.project-icon {
+    font-size: 2em;
+}
+
+.project-buttons {
+    padding-bottom: 1%;
+}
+
+.bottom {
+    padding-top: 2%;
 }
