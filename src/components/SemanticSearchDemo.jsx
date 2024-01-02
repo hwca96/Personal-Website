@@ -1,6 +1,8 @@
+import NavBar from "./Navbar";
 const SemanticSearchDemo = () => {
   return (
     <>
+    <NavBar />
       <div id="demo">
         <h1 className="title">Semantic Search Demo</h1>
         <iframe

@@ -107,7 +107,7 @@ html,body{
 .anchor {
     display: block;
     position: relative;
-    top: -5vh;
+    top: -6vh;
     visibility: hidden;
 }
 
@@ -163,4 +163,8 @@ html,body{
 
 .bottom {
     padding-top: 2%;
+}
+
+.nav-link{
+    text-decoration: none;
 }

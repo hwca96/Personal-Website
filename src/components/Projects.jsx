@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 function Projects() {
   return (
     <>
-      <h2 className="title"> Personal Projects </h2>
+      <h1 className="title"> Personal Projects </h1>
       <div className="project-panel">
         <h2 className="job-title">Research Paper Semantic Search</h2>
         <h3 className="test"> Description: </h3>
@@ -28,7 +28,7 @@ function Projects() {
           <Button
             variant="outline-info"
             className="project-buttons"
-            href="/#/semantic-search"
+            href="/personal-website/#/semantic-search"
             target="_blank"
           >
             {" "}
