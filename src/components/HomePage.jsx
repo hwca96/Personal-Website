@@ -24,10 +24,10 @@ function HomePage() {
         <Experiences />
         <a id="education" className="anchor"></a>
         <Education />
-        <a id="skills" className="anchor"></a>
-        <Skills />
         <a id="projects" className="anchor"></a>
         <Projects/>
+        <a id="skills" className="anchor"></a>
+        <Skills />
         <div className="bottom"></div>
       </div>
     </div>

@@ -1,4 +1,7 @@
-import { Button } from "react-bootstrap";
+import { Button, Accordion } from "react-bootstrap";
+import pandaslogo from "../../assets/pandas.svg"
+import hflogo from "../../assets/hf-logo.svg"
+import gradiologo from "../../assets/gradio-icon.svg"
 
 function Projects() {
   return (
@@ -6,7 +9,7 @@ function Projects() {
       <h1 className="title"> Personal Projects </h1>
       <div className="project-panel">
         <h2 className="job-title">Research Paper Semantic Search</h2>
-        <h3 className="test"> Description: </h3>
+        <h3> Description: </h3>
         <p>
           Developed a semantic search engine for research papers using
           sentence-transformer's all-MiniLM-L6-v2 model, MongoBD Atlas,
@@ -22,7 +25,35 @@ function Projects() {
           </a>
           .
         </p>
-        <h3 className="title"> Technologies </h3>
+        <Accordion defaultActiveKey="0">
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              <h6 className="title">Technologies</h6>
+            </Accordion.Header>
+            <Accordion.Body className="project-technologies-icons">
+            <div className="tech-card">
+            <i className="devicon-python-plain colored tech-image"></i>
+            <p className="title">Python</p>
+          </div>
+          <div className="tech-card">
+          <img src={pandaslogo} className="tech-image"/>
+            <p className="title">Pandas</p>
+          </div>
+          <div className="tech-card">
+            <i className="devicon-mongodb-plain colored tech-image"></i>
+            <p className="title">MongoDB</p>
+          </div>
+          <div className="tech-card">
+            <img src={hflogo} className="tech-image"/>
+            <p className="title">HuggingFace</p>
+          </div>
+          <div className="tech-card">
+            <img src={gradiologo} className="tech-image"/>
+            <p className="title">Gradio</p>
+          </div>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
         <h3 className="title"> Links </h3>
         <div className="project-buttons">
           <Button
@@ -61,7 +92,31 @@ function Projects() {
           built using React, Javascript, HTML, and CSS. It is hosted on GitHub
           Pages.
         </p>
-        <h3 className="title"> Technologies </h3>
+        <Accordion defaultActiveKey="0">
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              <h6 className="title">Technologies</h6>
+            </Accordion.Header>
+            <Accordion.Body className="project-technologies-icons">
+            <div className="tech-card">
+            <i className="devicon-react-plain colored tech-image"></i>
+            <p className="title">React</p>
+          </div>
+          <div className="tech-card">
+          <i className="devicon-html5-plain colored tech-image"></i>
+            <p className="title">HTML</p>
+          </div>
+          <div className="tech-card">
+            <i className="devicon-css3-plain colored tech-image"></i>
+            <p className="title">CSS</p>
+          </div>
+          <div className="tech-card">
+            <i className="devicon-github-plain tech-image"></i>
+            <p className="title">GitHub Pages</p>
+          </div>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
         <h3 className="title"> Links </h3>
         <div className="project-buttons">
           <Button

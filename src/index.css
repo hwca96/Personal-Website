@@ -7,10 +7,12 @@
     --secondary-color: #f25f4c;
     --text-bg: #ff8906;
     --paragraph: #a7a9be;
+    --alt-bg: #232946;
 }
 
 html,body{
     overflow-x: hidden;
+    /* padding-top: 40px; */
 }
 
 #resume {
@@ -22,6 +24,7 @@ html,body{
     min-height: 100vh;
     justify-content: center;
     text-align: center;
+    /* padding-top: 5%; */
 }
 
 #demo-iframe{
@@ -47,13 +50,30 @@ html,body{
     color: var(--main-color);
 }
 
+
+.accordion {
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+.accordion-item {
+    --bs-accordion-border-color: var(--stroke-color);
+    --bs-accordion-bg: none;
+}
+
 .accordion-button {
-    --bs-accordion-active-bg: var(--button-color);
-    --bs-accordion-btn-bg: var(--secondary-color);
+    --bs-accordion-active-bg: var(--alt-bg);
+    --bs-accordion-btn-bg: var(--bg-color);
 }
 
 .accordion-button:focus {
     --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.project-technologies-icons {
+    background-color: var(--bg-color);
+    display: flex;
+    border-radius: 5px;
 }
 
 .job-description {
@@ -70,7 +90,8 @@ html,body{
 
 .experience-panel-0 {
     background-color: var(--stroke-color);
-    width: 60%;
+    width: 70%;
+    font-size: large;
     margin: auto;
     border-radius: 10px;
     text-align: left;
@@ -81,7 +102,7 @@ html,body{
 .list-items {
     text-align: left;
     text-indent: 0%;
-    color: var(--paragraph);
+    color: var(--main-color);
     padding-bottom: 0.1%;
     padding-right: 0.5%;
 }
@@ -107,7 +128,7 @@ html,body{
 .anchor {
     display: block;
     position: relative;
-    top: -6vh;
+    padding-top: 1%;
     visibility: hidden;
 }
 
@@ -117,6 +138,7 @@ html,body{
     margin: auto;
     text-align: left;
     padding-left: 0.5%;
+    padding-top: 0.5%;
     border-radius: 10px;
 }
 
@@ -144,13 +166,15 @@ html,body{
 .project-panel {
     color: var(--main-color);
     background-color: var(--stroke-color);
-    width: 60%;
+    width: 70%;
     margin: auto;
     border-radius: 10px;
     text-align: left;
     text-indent: 0%;
     padding-left: 1%;
+    padding-right: 1%;
     margin-bottom: 1%;
+    font-size: large;
 }
 
 .project-icon {
@@ -167,4 +191,18 @@ html,body{
 
 .nav-link{
     text-decoration: none;
+}
+
+.tech-card {
+    text-align: center;
+    max-width: fit-content;
+    margin: 0.5%;
+}
+
+.tech-image {
+    font-size: 3.5em;
+    min-width: 1em;
+    min-height: 1em;
+    width: 1em;
+    height: auto;
 }

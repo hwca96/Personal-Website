@@ -5,7 +5,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function NavBar() {
   return (
-    <Navbar expand="lg" fixed="top" id="nav-bar">
+    <Navbar expand="lg" sticky="top" id="nav-bar">
       <Container fluid className="justify-content-center">
         <Navbar.Brand>
           <Link to="/#root" className="nav-link">
