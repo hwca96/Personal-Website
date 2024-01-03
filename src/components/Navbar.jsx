@@ -26,13 +26,13 @@ function NavBar() {
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/#skills" className="nav-link">
-                <h4 className="title">Skills</h4>
+              <Link to="/#projects" className="nav-link">
+                <h4 className="title">Projects</h4>
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/#projects" className="nav-link">
-                <h4 className="title">Projects</h4>
+              <Link to="/#skills" className="nav-link">
+                <h4 className="title">Skills</h4>
               </Link>
             </Nav.Link>
           </Nav>
