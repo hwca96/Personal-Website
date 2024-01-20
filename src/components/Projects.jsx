@@ -1,7 +1,8 @@
 import { Button, Accordion } from "react-bootstrap";
-import pandaslogo from "../../assets/pandas.svg"
-import hflogo from "../../assets/hf-logo.svg"
-import gradiologo from "../../assets/gradio-icon.svg"
+import pandaslogo from "../../assets/pandas.svg";
+import hflogo from "../../assets/hf-logo.svg";
+import gradiologo from "../../assets/gradio-icon.svg";
+import ultralyticlogo from "../../assets/ultralytics.svg";
 
 function Projects() {
   return (
@@ -31,26 +32,26 @@ function Projects() {
               <h6 className="title">Technologies</h6>
             </Accordion.Header>
             <Accordion.Body className="project-technologies-icons">
-            <div className="tech-card">
-            <i className="devicon-python-plain colored tech-image"></i>
-            <p className="title">Python</p>
-          </div>
-          <div className="tech-card">
-          <img src={pandaslogo} className="tech-image"/>
-            <p className="title">Pandas</p>
-          </div>
-          <div className="tech-card">
-            <i className="devicon-mongodb-plain colored tech-image"></i>
-            <p className="title">MongoDB</p>
-          </div>
-          <div className="tech-card">
-            <img src={hflogo} className="tech-image"/>
-            <p className="title">HuggingFace</p>
-          </div>
-          <div className="tech-card">
-            <img src={gradiologo} className="tech-image"/>
-            <p className="title">Gradio</p>
-          </div>
+              <div className="tech-card">
+                <i className="devicon-python-plain colored tech-image"></i>
+                <p className="title">Python</p>
+              </div>
+              <div className="tech-card">
+                <img src={pandaslogo} className="tech-image" />
+                <p className="title">Pandas</p>
+              </div>
+              <div className="tech-card">
+                <i className="devicon-mongodb-plain colored tech-image"></i>
+                <p className="title">MongoDB</p>
+              </div>
+              <div className="tech-card">
+                <img src={hflogo} className="tech-image" />
+                <p className="title">HuggingFace</p>
+              </div>
+              <div className="tech-card">
+                <img src={gradiologo} className="tech-image" />
+                <p className="title">Gradio</p>
+              </div>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -98,22 +99,22 @@ function Projects() {
               <h6 className="title">Technologies</h6>
             </Accordion.Header>
             <Accordion.Body className="project-technologies-icons">
-            <div className="tech-card">
-            <i className="devicon-react-plain colored tech-image"></i>
-            <p className="title">React</p>
-          </div>
-          <div className="tech-card">
-          <i className="devicon-html5-plain colored tech-image"></i>
-            <p className="title">HTML</p>
-          </div>
-          <div className="tech-card">
-            <i className="devicon-css3-plain colored tech-image"></i>
-            <p className="title">CSS</p>
-          </div>
-          <div className="tech-card">
-            <i className="devicon-github-plain tech-image"></i>
-            <p className="title">GitHub Pages</p>
-          </div>
+              <div className="tech-card">
+                <i className="devicon-react-plain colored tech-image"></i>
+                <p className="title">React</p>
+              </div>
+              <div className="tech-card">
+                <i className="devicon-html5-plain colored tech-image"></i>
+                <p className="title">HTML</p>
+              </div>
+              <div className="tech-card">
+                <i className="devicon-css3-plain colored tech-image"></i>
+                <p className="title">CSS</p>
+              </div>
+              <div className="tech-card">
+                <i className="devicon-github-plain tech-image"></i>
+                <p className="title">GitHub Pages</p>
+              </div>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -131,6 +132,54 @@ function Projects() {
           <Button
             variant="outline-light"
             href="https://github.com/hwca96/personal-website"
+            target="_blank"
+          >
+            {" "}
+            GitHub{" "}
+          </Button>
+        </div>
+      </div>
+
+      <div className="project-panel">
+        <h2 className="job-title">Computer Vision Traffic Counter</h2>
+        <h3 className="test"> Description: </h3>
+        <p>
+          This project is a computer vision-based traffic counter that uses
+          image processing techniques to analyze video footage and count the
+          number of vehicles passing through a specified area. It can be used
+          for various applications such as traffic monitoring, congestion
+          analysis, and traffic flow optimization.
+        </p>
+        <Accordion defaultActiveKey="0">
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              <h6 className="title">Technologies</h6>
+            </Accordion.Header>
+            <Accordion.Body className="project-technologies-icons">
+              <div className="tech-card">
+                <i className="devicon-python-plain colored tech-image"></i>
+                <p className="title">Python</p>
+              </div>
+              <div className="tech-card">
+                <i className="devicon-opencv-plain colored tech-image"></i>
+                <p className="title">OpenCV</p>
+              </div>
+              <div className="tech-card">
+                <img src={ultralyticlogo} className="tech-image" />
+                <p className="title">Ultralytics (YOLOv8)</p>
+              </div>
+              <div className="tech-card">
+                <i className="devicon-pytorch-original colored tech-image"></i>
+                <p className="title">PyTorch</p>
+              </div>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+        <h3 className="title"> Links </h3>
+        <div className="project-buttons">
+          <Button
+            variant="outline-light"
+            href="https://github.com/hwca96/cv-traffic-counter"
             target="_blank"
           >
             {" "}
