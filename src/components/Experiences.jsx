@@ -5,7 +5,7 @@ function Experiences() {
     <>
       <h1 className="title"> Work Experiences </h1>
       <div className="experience-panel-0">
-        <h2 className="job-title">Data Analyst</h2>
+        <h2 className="job-title">Data Analyst / Developer Co-op</h2>
             <h4 className="title">Landsure Systems - Vancouver, BC</h4>
             <h5 className="title">September 2022 - May 2023</h5>
             <ul className="list-items">
@@ -103,7 +103,7 @@ function Experiences() {
             </ul>
       </div>
       <div className="experience-panel-0">
-        <h2 className="job-title">Analytical Chemist</h2>
+        <h2 className="job-title">Analytical Chemist Co-op</h2>
             <h4 className="title">PHSA - Vancouver, BC</h4>
             <h5 className="title">May 2019 - December 2019</h5>
             <ul className="list-items">

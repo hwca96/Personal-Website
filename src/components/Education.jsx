@@ -16,8 +16,9 @@ function Education() {
               <Card.Text>
                   The University of British Columbia
                   <br />
-                  September 2021 - January 2024
+                  September 2021 - May 2024
                   <br />
+                  Awaiting Graduation
               </Card.Text>
             </Card.Body>
           </Card>
@@ -34,6 +35,8 @@ function Education() {
                   The University of British Columbia
                   <br />
                   September 2015 - May 2020
+                  <br />
+                  Graduated
               </Card.Text>
             </Card.Body>
           </Card>
